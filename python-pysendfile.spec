@@ -2,7 +2,7 @@
 
 Name:           python-pysendfile
 Version:        2.0.1
-Release:        1
+Release:        2
 Summary:        Python interface to the sendfile(2) system call
 Group:          Development/Python
 
@@ -36,4 +36,4 @@ PYTHONPATH="%{buildroot}%{python_sitearch}" %{__python} test/test_sendfile.py
 %doc README.rst HISTORY.rst
 %license LICENSE
 %{python_sitearch}/sendfile*.so
-%{python_sitearch}/pysendfile-%{version}-py?.?.egg-info
+%{python_sitearch}/pysendfile-%{version}-py*.*.egg-info
