@@ -2,7 +2,7 @@
 
 Name:           python-pysendfile
 Version:        2.0.1
-Release:        3
+Release:        4
 Summary:        Python interface to the sendfile(2) system call
 Group:          Development/Python
 
